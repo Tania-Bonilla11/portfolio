@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/ico.ico" />
+    <link rel='stylesheet'
+      href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'>
+ <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="/css/style.css">
+  <!-- JAM icons -->
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+   
+    
+    
+    
+    
+    <title>Tania Bonilla | Portafolio</title>
+
+</head>
+<body>
+    <!-- Cabecera (Logo y menú de navegación) -->
+  <header class="main-header">
+    <div class="content-wrapper">
+      <a href="/">
+        <img  id="icono"src="/img/logo.PNG" alt="Logo Personal">
+      </a>
+      <span id="open-menu-button" class="jam jam-menu"></span>
+      <nav id="main-menu" class="main-menu">
+        <span id="close-menu-button" class="jam jam-close"></span>
+        <ul>
+          <li>
+            <a href="/" style=" color: #EA5E3A !important">Inicio</a>
+          </li>
+          <li>
+            <a href="/./vistas/proyectos.html">Proyectos</a>
+          </li>
+         
+          <li>
+            <a href="#contacto">Contactactame</a>
+          </li>
+          
+           <li id="language">
+             <a href="">Idioma <i class="fa fa-globe" aria-hidden="true"></i></a>
+             <ul>
+               <li><a href="#">Español <img class=flags src="/img/spain.png" alt="español"> </a></li>
+               <li><a href="/indexen.html">Ingles <img class="flags united" src="/img/united-states.png" alt="english"></a></li>
+            
+             </ul>
+           </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <br><br><br>
+      <!-- Banner principal -->
+      <div class="main-banner section-container">
+        <div class="content-wrapper content">
+          <div class="container">
+          <h1 class="title">Tania Bonilla</h1>
+          <h1 class="subtitle">Desarrollo web.</h1>
+          
+          <h3 class="subtitle">¡Hola! <p>soy como bien leiste arriba Tania, una studiante de cuarto año en la carrera de
+              ingenieria en
+              sistemas y redes informáticas en la Universidad Gerardo Barrios, actualmente aprendiendo desarrollo web,
+              soy una persona que le gusta diseñar y crear soluciones con lógica y creatividad.</p>
+          </h3>
+        <!-- <button class="button">Descargar CV <label class="wait">😉</label></button> -->
+        <button class="button" onclick="location.href='#contacto'">Hablemos<label class="wait">😉</label></button>
+
+       
+          </div>
+          <div class="container">
+         <img class="image" src="/img/me.PNG" alt="fotografia"><br>
+         <h2 class="subtitle">  El Salvador<img src="/img/el-salvador.png" alt="country" class="flags"></h2>
+        </div>
+        </div>
+      </div>
+      <div class="social">
+        
+        <a href="https://www.linkedin.com/in/tania-bonilla-368b121bb/" target="_blank"><img src="img/linkedin.png"
+            alt="facebook"></a>
+        <a href="https://codepen.io/tois" target="_blank"><img src="img/codepen.png" alt="youtube"></a>
+        <a href="https://github.com/Tania-Bonilla11" target="_blank"><img src="img/github.png" alt="linkedin"></a>
+     
+      </div>
+
+      <!-- fin de banner principal -->
+      <!-- testimonio -->
+      <h1 class="testimoniotitle">Testimonios</h1>
+
+      <iframe src="/./vistas/d.html" frameborder="0" scrolling="no"></iframe>
+
+
+      <section id="contacto">
+        <div class="container py-5">
+          <h2 class="my-5 text-dark text-center">Contacto<i class="fa fa-envelope ml-3"></i></h2>
+          <h3 class="text-center text-dark">Por que no dices hola!</h3>
+          <p class="text-center text-secondary">¿Listo para estar en contacto conmigo y crear cosas increibles?</p>
+          <div class="row mt-5">
+            <div class="col-md-4 mt-3">
+              <p class="text-muted">También Puedes contactarme o ver que estoy haciendo como desarrollador</p>
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-action"><a class="list-group-item-action lead"
+                    href="https://www.linkedin.com/in/tania-bonilla-368b121bb/" target="_blank">Linkedin<i
+                      class="ml-2 fab fa-linkedin-in" social="social"></i></a></li>
+                <li class="list-group-item list-group-item-action"><a class="list-group-item-action lead"
+                    href="https://github.com/Tania-Bonilla11" target="_blank">Github<i class="ml-2 fab fa-github"
+                      social="social"></i></a></li>
+                
+              </ul>
+            </div>
+            <div class="col-md-8">
+              <form class="container needs-validation" novalidate="novalidate" name="contact" method="POST"
+                data-netlify="true">
+                <div class="form-row">
+                  <div class="col-md-6 mt-3">
+                    <input class="form-control" type="text" placeholder="Tu Nombre" name="name" />
+                  </div>
+                  <div class="col-md-6 mt-3">
+                    <input class="form-control" type="email" name="email" placeholder="Tu Correo"  />
+                  </div>
+                  
+                  <div class="col-md-12 mt-3">
+                    <textarea class="form-control" name="message" placeholder="Puedes preguntar y contarme tus ideas" rows="8"
+                      ></textarea>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <button class="btn btn-outline-secondary my-3" type="submit" >Enviar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <p class="text-center lead py-5">"Un buen diseño aporta un valor añadido más rápido de lo que agrega costo"
+          </p>
+        </div>
+      </section>
+      <footer class="bg-dark py-4" id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 d-flex align-items-center justify-content-center"><a class="nav-link text-muted"
+                href="https://twitter.com/share?ref_src=twsrc%5Etfw" target="_blank"><strong><em>Tania Bonilla
+                    </em><i class="fab fa-twitter ml-3"></i></strong></a></div>
+            <div class="col-md-4">
+              <ul class="nav justify-content-center navbar-dark">
+                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/carlosandresalzate/"
+                    target="_blank"><i class="text-white fab fa-linkedin"> </i></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://github.com/studioArtbliss" target="_blank"><i
+                      class="text-white fab fa-github"> </i></a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <!-- scripts -->
+    <script src="/scripts/menu.js"></script>
+    <script src="/scripts/script.js"></script>
+    <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js'></script>
+</body>
+</html>
